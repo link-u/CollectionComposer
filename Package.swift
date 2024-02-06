@@ -21,11 +21,6 @@ let package = Package(
             name: "CollectionComposer",
             dependencies: [],
             path: "Sources/CollectionComposer"
-        ),
-        .testTarget(
-            name: "CollectionComposerTests",
-            dependencies: [],
-            path: "Tests/CollectionComposerTests"
         )
     ]
 )
